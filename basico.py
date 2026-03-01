@@ -9,6 +9,12 @@ print("¡Hola, mundo!")  # Esta línea de código imprime el mensaje "¡Hola, mu
 
 #Podemos ejecutar el archivo por medio de la consola utilizando el comando "python basico.py".
 
+#Así como existe una función para imprimir un mensaje, también existe una función para recibir un mensaje por parte del usuario, que es "input()". Esta función muestra un mensaje en la consola y espera a que el usuario ingrese un valor, que luego devuelve como una cadena de texto (string). Por ejemplo:
+
+nombre = input("¿Cuál es tu nombre? ")  # Esta línea de código muestra el mensaje "¿Cuál es tu nombre? " en la consola y espera a que el usuario ingrese su nombre. El valor ingresado se almacena en la variable "nombre".
+
+print(f"¡Hola, {nombre}!")  # Esta línea de código imprime un mensaje de saludo personalizado utilizando el valor almacenado en la variable "nombre". La sintaxis f"..." se utiliza para crear una cadena de texto formateada, donde las expresiones dentro de llaves {} se evalúan y se insertan en la cadena resultante. En este caso, el valor de "nombre" se inserta en el mensaje de saludo.
+
 #---------INDENTACIÓN---------
 #En Python es importante el termino "indentación", que se refiere a un espacio en blanco al inicio de una línea de código. La indentación es la forma en que se organizan los bloques de código en Python. Mediante ella, el lenguaje reconoce que ciertas líneas de código pertenecen a una misma estructura, como un bucle o un condicional. 
 #Brevemente, una estructura condicional es un bloque de código que, por medio de la evaluación de un enunciado, permite controlar el flujo de ejecución de un programa, escogiendo entre una opción u otra, según sea verdadero o falso el enunciado evaluado. Su sintaxis utiliza la palabra reservada "if" seguida de la condición a evaluar. 

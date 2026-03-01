@@ -1,0 +1,2 @@
+Hola, este es un texto de prueba para aprender sobre la funcionalidad de manejo de archivos con Python!!
+
